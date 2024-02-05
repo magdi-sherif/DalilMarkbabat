@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D485BBAA2B715B4000DC2DFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D485BBA92B715B4000DC2DFE /* AppDelegate.swift */; };
+		D485BBAC2B715B4000DC2DFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D485BBAB2B715B4000DC2DFE /* SceneDelegate.swift */; };
+		D485BBAE2B715B4000DC2DFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D485BBAD2B715B4000DC2DFE /* ViewController.swift */; };
+		D485BBB12B715B4000DC2DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D485BBAF2B715B4000DC2DFE /* Main.storyboard */; };
+		D485BBB42B715B4000DC2DFE /* dalilMarkbabat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D485BBB22B715B4000DC2DFE /* dalilMarkbabat.xcdatamodeld */; };
+		D485BBB62B715B4200DC2DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D485BBB52B715B4200DC2DFE /* Assets.xcassets */; };
+		D485BBB92B715B4200DC2DFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D485BBB72B715B4200DC2DFE /* LaunchScreen.storyboard */; };
+		D485BBC42B715B4300DC2DFE /* dalilMarkbabatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D485BBC32B715B4300DC2DFE /* dalilMarkbabatTests.swift */; };
+		D485BBCE2B715B4300DC2DFE /* dalilMarkbabatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D485BBCD2B715B4300DC2DFE /* dalilMarkbabatUITests.swift */; };
+		D485BBD02B715B4300DC2DFE /* dalilMarkbabatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D485BBCF2B715B4300DC2DFE /* dalilMarkbabatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D485BBC02B715B4300DC2DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D485BB9E2B715B4000DC2DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D485BBA52B715B4000DC2DFE;
+			remoteInfo = dalilMarkbabat;
+		};
+		D485BBCA2B715B4300DC2DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D485BB9E2B715B4000DC2DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D485BBA52B715B4000DC2DFE;
+			remoteInfo = dalilMarkbabat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D485BBA62B715B4000DC2DFE /* dalilMarkbabat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dalilMarkbabat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D485BBA92B715B4000DC2DFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D485BBAB2B715B4000DC2DFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D485BBAD2B715B4000DC2DFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D485BBB02B715B4000DC2DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D485BBB32B715B4000DC2DFE /* dalilMarkbabat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dalilMarkbabat.xcdatamodel; sourceTree = "<group>"; };
+		D485BBB52B715B4200DC2DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D485BBB82B715B4200DC2DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D485BBBA2B715B4200DC2DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D485BBBF2B715B4300DC2DFE /* dalilMarkbabatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dalilMarkbabatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D485BBC32B715B4300DC2DFE /* dalilMarkbabatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dalilMarkbabatTests.swift; sourceTree = "<group>"; };
+		D485BBC92B715B4300DC2DFE /* dalilMarkbabatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dalilMarkbabatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D485BBCD2B715B4300DC2DFE /* dalilMarkbabatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dalilMarkbabatUITests.swift; sourceTree = "<group>"; };
+		D485BBCF2B715B4300DC2DFE /* dalilMarkbabatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dalilMarkbabatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D485BBA32B715B4000DC2DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D485BBBC2B715B4300DC2DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D485BBC62B715B4300DC2DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D485BB9D2B715B4000DC2DFE = {
+			isa = PBXGroup;
+			children = (
+				D485BBA82B715B4000DC2DFE /* dalilMarkbabat */,
+				D485BBC22B715B4300DC2DFE /* dalilMarkbabatTests */,
+				D485BBCC2B715B4300DC2DFE /* dalilMarkbabatUITests */,
+				D485BBA72B715B4000DC2DFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D485BBA72B715B4000DC2DFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D485BBA62B715B4000DC2DFE /* dalilMarkbabat.app */,
+				D485BBBF2B715B4300DC2DFE /* dalilMarkbabatTests.xctest */,
+				D485BBC92B715B4300DC2DFE /* dalilMarkbabatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D485BBA82B715B4000DC2DFE /* dalilMarkbabat */ = {
+			isa = PBXGroup;
+			children = (
+				D485BBA92B715B4000DC2DFE /* AppDelegate.swift */,
+				D485BBAB2B715B4000DC2DFE /* SceneDelegate.swift */,
+				D485BBAD2B715B4000DC2DFE /* ViewController.swift */,
+				D485BBAF2B715B4000DC2DFE /* Main.storyboard */,
+				D485BBB52B715B4200DC2DFE /* Assets.xcassets */,
+				D485BBB72B715B4200DC2DFE /* LaunchScreen.storyboard */,
+				D485BBBA2B715B4200DC2DFE /* Info.plist */,
+				D485BBB22B715B4000DC2DFE /* dalilMarkbabat.xcdatamodeld */,
+			);
+			path = dalilMarkbabat;
+			sourceTree = "<group>";
+		};
+		D485BBC22B715B4300DC2DFE /* dalilMarkbabatTests */ = {
+			isa = PBXGroup;
+			children = (
+				D485BBC32B715B4300DC2DFE /* dalilMarkbabatTests.swift */,
+			);
+			path = dalilMarkbabatTests;
+			sourceTree = "<group>";
+		};
+		D485BBCC2B715B4300DC2DFE /* dalilMarkbabatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D485BBCD2B715B4300DC2DFE /* dalilMarkbabatUITests.swift */,
+				D485BBCF2B715B4300DC2DFE /* dalilMarkbabatUITestsLaunchTests.swift */,
+			);
+			path = dalilMarkbabatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D485BBA52B715B4000DC2DFE /* dalilMarkbabat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D485BBD32B715B4300DC2DFE /* Build configuration list for PBXNativeTarget "dalilMarkbabat" */;
+			buildPhases = (
+				D485BBA22B715B4000DC2DFE /* Sources */,
+				D485BBA32B715B4000DC2DFE /* Frameworks */,
+				D485BBA42B715B4000DC2DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dalilMarkbabat;
+			productName = dalilMarkbabat;
+			productReference = D485BBA62B715B4000DC2DFE /* dalilMarkbabat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D485BBBE2B715B4300DC2DFE /* dalilMarkbabatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D485BBD62B715B4300DC2DFE /* Build configuration list for PBXNativeTarget "dalilMarkbabatTests" */;
+			buildPhases = (
+				D485BBBB2B715B4300DC2DFE /* Sources */,
+				D485BBBC2B715B4300DC2DFE /* Frameworks */,
+				D485BBBD2B715B4300DC2DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D485BBC12B715B4300DC2DFE /* PBXTargetDependency */,
+			);
+			name = dalilMarkbabatTests;
+			productName = dalilMarkbabatTests;
+			productReference = D485BBBF2B715B4300DC2DFE /* dalilMarkbabatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D485BBC82B715B4300DC2DFE /* dalilMarkbabatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D485BBD92B715B4300DC2DFE /* Build configuration list for PBXNativeTarget "dalilMarkbabatUITests" */;
+			buildPhases = (
+				D485BBC52B715B4300DC2DFE /* Sources */,
+				D485BBC62B715B4300DC2DFE /* Frameworks */,
+				D485BBC72B715B4300DC2DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D485BBCB2B715B4300DC2DFE /* PBXTargetDependency */,
+			);
+			name = dalilMarkbabatUITests;
+			productName = dalilMarkbabatUITests;
+			productReference = D485BBC92B715B4300DC2DFE /* dalilMarkbabatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D485BB9E2B715B4000DC2DFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D485BBA52B715B4000DC2DFE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D485BBBE2B715B4300DC2DFE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D485BBA52B715B4000DC2DFE;
+					};
+					D485BBC82B715B4300DC2DFE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D485BBA52B715B4000DC2DFE;
+					};
+				};
+			};
+			buildConfigurationList = D485BBA12B715B4000DC2DFE /* Build configuration list for PBXProject "dalilMarkbabat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D485BB9D2B715B4000DC2DFE;
+			productRefGroup = D485BBA72B715B4000DC2DFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D485BBA52B715B4000DC2DFE /* dalilMarkbabat */,
+				D485BBBE2B715B4300DC2DFE /* dalilMarkbabatTests */,
+				D485BBC82B715B4300DC2DFE /* dalilMarkbabatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D485BBA42B715B4000DC2DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D485BBB92B715B4200DC2DFE /* LaunchScreen.storyboard in Resources */,
+				D485BBB62B715B4200DC2DFE /* Assets.xcassets in Resources */,
+				D485BBB12B715B4000DC2DFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D485BBBD2B715B4300DC2DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D485BBC72B715B4300DC2DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D485BBA22B715B4000DC2DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D485BBAE2B715B4000DC2DFE /* ViewController.swift in Sources */,
+				D485BBAA2B715B4000DC2DFE /* AppDelegate.swift in Sources */,
+				D485BBB42B715B4000DC2DFE /* dalilMarkbabat.xcdatamodeld in Sources */,
+				D485BBAC2B715B4000DC2DFE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D485BBBB2B715B4300DC2DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D485BBC42B715B4300DC2DFE /* dalilMarkbabatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D485BBC52B715B4300DC2DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D485BBCE2B715B4300DC2DFE /* dalilMarkbabatUITests.swift in Sources */,
+				D485BBD02B715B4300DC2DFE /* dalilMarkbabatUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D485BBC12B715B4300DC2DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D485BBA52B715B4000DC2DFE /* dalilMarkbabat */;
+			targetProxy = D485BBC02B715B4300DC2DFE /* PBXContainerItemProxy */;
+		};
+		D485BBCB2B715B4300DC2DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D485BBA52B715B4000DC2DFE /* dalilMarkbabat */;
+			targetProxy = D485BBCA2B715B4300DC2DFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D485BBAF2B715B4000DC2DFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D485BBB02B715B4000DC2DFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D485BBB72B715B4200DC2DFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D485BBB82B715B4200DC2DFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D485BBD12B715B4300DC2DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D485BBD22B715B4300DC2DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D485BBD42B715B4300DC2DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dalilMarkbabat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = magdi.dalilMarkbabat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D485BBD52B715B4300DC2DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dalilMarkbabat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = magdi.dalilMarkbabat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D485BBD72B715B4300DC2DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = magdi.dalilMarkbabatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dalilMarkbabat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dalilMarkbabat";
+			};
+			name = Debug;
+		};
+		D485BBD82B715B4300DC2DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = magdi.dalilMarkbabatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dalilMarkbabat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dalilMarkbabat";
+			};
+			name = Release;
+		};
+		D485BBDA2B715B4300DC2DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = magdi.dalilMarkbabatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dalilMarkbabat;
+			};
+			name = Debug;
+		};
+		D485BBDB2B715B4300DC2DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = magdi.dalilMarkbabatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dalilMarkbabat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D485BBA12B715B4000DC2DFE /* Build configuration list for PBXProject "dalilMarkbabat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D485BBD12B715B4300DC2DFE /* Debug */,
+				D485BBD22B715B4300DC2DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D485BBD32B715B4300DC2DFE /* Build configuration list for PBXNativeTarget "dalilMarkbabat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D485BBD42B715B4300DC2DFE /* Debug */,
+				D485BBD52B715B4300DC2DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D485BBD62B715B4300DC2DFE /* Build configuration list for PBXNativeTarget "dalilMarkbabatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D485BBD72B715B4300DC2DFE /* Debug */,
+				D485BBD82B715B4300DC2DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D485BBD92B715B4300DC2DFE /* Build configuration list for PBXNativeTarget "dalilMarkbabatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D485BBDA2B715B4300DC2DFE /* Debug */,
+				D485BBDB2B715B4300DC2DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D485BBB22B715B4000DC2DFE /* dalilMarkbabat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D485BBB32B715B4000DC2DFE /* dalilMarkbabat.xcdatamodel */,
+			);
+			currentVersion = D485BBB32B715B4000DC2DFE /* dalilMarkbabat.xcdatamodel */;
+			path = dalilMarkbabat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D485BB9E2B715B4000DC2DFE /* Project object */;
+}
